@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--light mode-->
+    <color name="Background">#FFFFFF</color>
+    <color name="Surface">#CFD8DC</color>
+    <color name="Primary">#455A64</color>
+    <color name="Secondary">#37474F</color>
+    <color name="OnBackground">#263238</color>
+    <color name="OnSurface">#263238</color>
+    <color name="OnPrimary">#455A64</color>
+    <color name="OnSecondary">#FF000000</color>
+
+    <!--Dark mode-->
+    <color name="Background2">#0f0f0f</color>
+    <color name="Surface2">#212121</color>
+    <color name="Primary2">#0f0f0f</color>
+    <color name="Secondary2">#616161</color>
+    <color name="OnBackground2">#EEEEEE</color>
+    <color name="OnSurface2">#EEEEEE</color>
+    <color name="OnPrimary2">#424242</color>
+    <color name="OnSecondary2">#FF000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+</resources>

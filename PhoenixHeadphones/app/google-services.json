@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50269957113",
+    "project_id": "phoenix-headphones-c425f",
+    "storage_bucket": "phoenix-headphones-c425f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50269957113:android:7c7918cb56a62cfb06eb28",
+        "android_client_info": {
+          "package_name": "com.example.phoenixheadphones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50269957113-t0hskk391l09setl1aaa2g4irqrr8bmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtKqasfklnalsnflaasfvaKeFNVj18k0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50269957113-t0hskk391l09setl1aaa2g4irqrr8bmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

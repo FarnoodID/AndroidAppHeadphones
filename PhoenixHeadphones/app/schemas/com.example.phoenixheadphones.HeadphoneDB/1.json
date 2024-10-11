@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "1f5ca147fc87c20d899cc05e6e970996",
+    "entities": [
+      {
+        "tableName": "headphones",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`headphone_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `headphone_name` TEXT NOT NULL, `headphone_note` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "headphoneID",
+            "columnName": "headphone_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "headphoneName",
+            "columnName": "headphone_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "headphoneNote",
+            "columnName": "headphone_note",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "headphone_id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1f5ca147fc87c20d899cc05e6e970996')"
+    ]
+  }
+}
